@@ -3,7 +3,7 @@ package com.learn.exception;
 /**
  * @author sksingh created on 06/03/24
  */
-public class ResultException extends Exception {
+public class ResultException extends RuntimeException {
 
     public ResultException() {
     }
